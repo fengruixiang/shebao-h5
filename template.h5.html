@@ -20,7 +20,7 @@
     <script>
         var iframe = document.getElementById("myIframe");
         const searchParams = new URLSearchParams(window.location.search);
-        const iframeurl = searchParams.get("iframeurl");
+        const iframeurl = "https://shebao-app-1301586133.cos.ap-guangzhou.myqcloud.com/shebao-app/pdf.html";
         const pdfurl = searchParams.get("pdfurl");
         const dynamicSrc = iframeurl + '?pdfurl=' + pdfurl;
         iframe.src = dynamicSrc;
