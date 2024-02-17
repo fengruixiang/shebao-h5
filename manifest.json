@@ -73,7 +73,7 @@
         "router" : {
             "base" : "./"
         },
-        "title" : "社保 APP",
+        "title" : "社保APP",
         "template" : "template.h5.html"
     }
 }
